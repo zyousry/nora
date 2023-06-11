@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minimalistic HTML Example</title>
+</head>
+
+ 
+
+
+<body>
+    ====== headers example ======
+    <h5>amir 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    ====== paragraph example ======
+
+    <p>This is a paragraph.</p>
+
+    <br>
+    ====== anchor (link) example ======<br>
+    <a href="https://www.google.com">This is a Link</a>
+
+    <br>
+    <br>
+    ====== div (container) example ======
+    <div style="border:2px solid red;">
+        this is a div, an element that contains other elements
+    </div>
+
+
+    <br>
+    ====== image example ======
+    <br>
+
+    <img src="https://www.w3schools.com/w3images/cherries.jpg"  height="300" alt="Delicious food">
+
+
+    <br>
+    ====== dropdown list example ======
+    <br>
+    <select id="career" name="career">
+      <option value="">please select a career</option>
+      <option value="frontend">Frontend Developer</option>
+      <option value="backend">Backend Developer</option>
+      <option value="fullstack">Fullstack Developer</option>
+    </select>
+
+    <br>
+    <br>
+    ====== lists example ======
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+
+    <ol>
+        <li>Numbered item 1</li>
+        <li>Numbered item 2</li>
+        <li>Numbered item 3</li>
+    </ol>
+
+    ====== table example ======
+    <table>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td>Cell 3</td>
+            <td>Cell 4</td>
+        </tr>
+    </table>
+
+
+    ====== embedding a link example ======
+    </br>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/6QAELgirvjs"></iframe>
+    </br>
+
+    </br>
+        this is the form element, it contains the inputs you want to send in the form
+        for example you can make a login form 
+        with inputs for 
+    </br>
+        1=> username 
+        2=> password
+    </br>
+     and then the user submit the form
+    </br>
+    </br>
+
+
+    ====== form example ======
+
+    <form action="contact-us.php" method="GET" style="border:2px dashed blue;padding:6px;">
+        
+        <label for="text_example">Text:</label>
+        <input type="text" id="text_example" name="name" placeholder="Enter your name" value="Ahmed Ali">
+        </br>
+        </br>
+
+        <label for="myTextArea">textarea:</label>
+        <textarea id="myTextArea" name="address" placeholder="Enter your address"></textarea>
+        </br>
+        </br>
+
+        <label>reset: it resets the form inputs</label>
+        <input type="reset"> 
+        </br>
+        </br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" require value="ahmed@gmail.com"d>
+        </br>
+        </br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" value="123"  name="password"> 
+        </br>
+        </br>
+        
+        checkbox example <br>
+        <label for="fries">fries</label>
+        <input type="checkbox" id="fries" name="fries"> 
+
+        <label for="ketchup">ketchup</label>
+        <input type="checkbox" id="ketchup" name="ketchup">
+
+        <label for="mayonaize">mayonaize</label>
+        <input type="checkbox" id="mayonaize" name="mayonaize">
+
+        <label for="cola">cola</label>
+        <input type="checkbox" id="cola" name="cola">
+        </br>
+        </br>
+        
+        <label for="car_color">car color</label>
+        <br>
+        <label for="blue_car">blue</label>
+        <input type="radio" id="blue_car" name="car_color" value="blue"> 
+        <br>
+
+        <label for="black_car">black</label>
+        <input type="radio" id="black_car" name="car_color" value="black"> 
+        <br>
+        
+        <label for="yellow_car">yellow</label>
+        <input type="radio" id="yellow_car" name="car_color" value="yellow"> 
+        </br>
+        </br>
+        
+        <label for="file">file</label>
+        <input type="file" id="file" name="file" > 
+        </br>
+        </br>
+        
+        <label for="button">button</label>
+        <input type="button" id="button" name="button" value="this is just a button"> 
+        </br>
+        </br>
+        
+        <label for="number">number</label>
+        <input type="number" min="-3" max="123" id="number" value="123"  name="number"> 
+        </br>
+        </br>
+        
+        <label for="date">date</label>
+        <input type="date" id="date" value="2023-06-01"  name="date"> 
+        </br>
+        </br>
+        
+        <label for="time">time</label>
+        <input type="time" id="time" name="time" value="14:00">
+        </br>
+        </br>
+
+        <label for="datetime">datetime-local</label>
+        <input type="datetime-local" id="datetime" value="2023-06-20T08:17"  name="datetime"> 
+        </br>
+        </br>
+ 
+        <label for="submit">normal submit button</label>
+        <input type="submit" value="let's submit this form"/> 
+        </br>
+        </br>
+
+        <label for="image">image submit button</label>
+        <input type="image" src="https://freepngimg.com/thumb/submit_button/25463-7-submit-button-free-download.png" width="100">
+    </form>
+</body>
+</html>
